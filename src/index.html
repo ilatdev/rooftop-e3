@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div>
+          <a href="https://rooftop.dev"
+            ><img src="rooftop-logo.webp" alt="rooftop"
+          /></a>
+        </div>
+        <div class="navigation">
+          <a href="#">Academy</a>
+          <a href="#">Contacto</a>
+          <a href="#">Aplica</a>
+          <a id="contrata" href="#">Contrata</a>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="contactWrapper">
+          <div class="contactHeader">
+            <h1>Contáctanos</h1>
+            <h4>
+              Completa el formulario y un representante de Rooftop te contactara
+              en la brevedad.
+            </h4>
+          </div>
+          <div class="cardWrapper">
+            <div class="contactCard">
+              <div class="cardIcon"><img src="map-marker.svg" /></div>
+              <div class="cardText">
+                <h3>Encuentranos</h3>
+                <p>3050 Biscayne Blvd Suite 302, Miami, Florida 33137, US</p>
+              </div>
+            </div>
+            <div class="contactCard">
+              <div class="cardIcon">
+                <img src="outline-envelope.svg" />
+              </div>
+              <div class="cardText">
+                <h3>Envíanos un correo</h3>
+                <p>info@rooftop.dev</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formWrapper">
+          <form>
+            <div class="formHeaderWrap">
+            <input
+              type="text"
+              name="full_name"
+              placeholder="Nombre completo"
+              title="Nombre completo"
+            />
+            <select class="contactArea" name="contact_area">
+              <option hidden selected>Enviar a</option>
+              <option label="Preguntas generales" />
+              <option label="Ventas" />
+              <option label="Atencion al cliente" />
+              <option label="Prensa" />
+              <option label="Partnerships" />
+              <option label="Inversores" />
+            </select>
+          </div>
+            <input type="email" name="email" placeholder="Correo electronico" />
+            <textarea
+              rows="6"
+              id="formTextArea"
+              placeholder="Me gustaria saber acerca de..."
+            ></textarea>
+            <button class="btnSubmit">Contactanos</button>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="social">
+          <a href="#">
+            <div class="socialLink">
+              <img src="/instagram-black.svg" alt="instagram" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="socialLink">
+              <img src="/facebook-black.svg" alt="instagram" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="socialLink">
+              <img src="/linkedin-black.svg" alt="instagram" />
+            </div>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
